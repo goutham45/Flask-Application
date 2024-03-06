@@ -1,0 +1,2 @@
+redirect and Url_for : used to redirect to specific URL where redirect(Url_for(function_name to redirect,parameter))
+render_template: create a templates folder and put html pages inside it and you can access through return statement return render_template('htmal page.html')
