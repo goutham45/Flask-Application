@@ -35,7 +35,7 @@ def submit():
     if request.method=="POST":
         ts = float(request.form['total'])
         if ts<=50:
-            res = 'pass1'
+            res = 'fail1'
         else:
             res = 'pass1'
         return redirect(url_for(res,score=ts))
